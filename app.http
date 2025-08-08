@@ -1,0 +1,26 @@
+GET http://localhost:4000/task/20
+Content-Type: application/json
+### método utilizado para solicitar datos de un recurso específico de un servidor
+
+POST http://localhost:4000/task
+Content-Type: application/json
+
+{
+  "title":"mi 9 tarea",
+  "description":"esta es la prueba 9"
+}
+### se utiliza para enviar datos a un servidor web con el propósito de crear o actualizar un recurso
+
+DELETE http://localhost:4000/task/2
+
+### se utiliza para eliminar un recurso específico en el servidor
+
+PUT http://localhost:4000/task/3
+Content-Type: application/json
+
+{
+  "title":"este es el primer titulo real",
+  "description":"este es el primer contenido real"
+}
+
+### se utiliza para actualizar un recurso existente en el servidor con nuevos datos
