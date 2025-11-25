@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { taskpage } from './src/pages/taskpage';
 import { NotFoundPage } from './src/pages/NotFoundPage';
 import { Navigation } from './src/pages/Navigation';
+import { Hero } from './src/pages/Hero';
 import "./global.css"
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
    
     <View style={styles.container}>
       <Navigation />
+      <Hero />
       <Text>Hola Mundo</Text>
       <StatusBar style="auto" />
     </View>
